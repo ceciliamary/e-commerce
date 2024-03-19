@@ -1,4 +1,4 @@
-const Productos = [
+const productos = [
     { id: 1,
     productoNombre: "Dulce de Frambuesa",
     precio: 4500, 
