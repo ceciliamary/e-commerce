@@ -26,8 +26,30 @@ flex-wrap: wrap;
     width: 100%;
     font-size: 15 px;
 }
-/*
-.btnCompra boton: hover{
+
+.btnCompra boton:hover{
 opacity: 0.7;
 }
-*/
+
+.imagen{
+    margin-top: 40px;
+    width: 250 px;
+    height: 250px;
+}
+
+.btnCarrito {
+    position: fixed;
+    top: 90 vh;
+    right: 40px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.btnCarrito:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
