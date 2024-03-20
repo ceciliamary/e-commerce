@@ -1,5 +1,10 @@
+.cuerpo{
+    background-color: aquamarine;
+}
+
 .contenedorProductos{
     margin: 5vh auto;
+    
 }
 
 .cartaProductos{
@@ -9,3 +14,20 @@ flex-direction: row;
 justify-content: space-around;
 flex-wrap: wrap;
 }
+
+.btnCompra {
+    border: none;
+    outline: 0;
+    padding: 10 px;
+    color: white;
+    background-color: gray;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 15 px;
+}
+/*
+.btnCompra boton: hover{
+opacity: 0.7;
+}
+*/

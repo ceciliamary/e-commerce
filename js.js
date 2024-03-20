@@ -8,4 +8,9 @@ productos.forEach((producto) =>{
     <p class="price">${producto.precio}$</p>
     `;
     tarjetaProductos.append(contenido);
+
+    const botonComprar = document.createElement("boton");
+    botonComprar.innerText = "Comprar";
+    botonComprar.className= "btnCompra";
+    contenido.append(botonComprar)
 });
